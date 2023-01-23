@@ -1,0 +1,41 @@
+# definition of the dimensions of the system of pdes
+*PDEDIM 2
+
+*OUTPUTFOLDER glicerina2_2particula_25p
+
+# definition of data for discretization
+*XSIZE 6000
+*LENGTH 0.9
+*DELTAT 0.2
+*TFINAL 21600
+
+*DIAMETER 0.066e-3 0.092e-3
+# DENSITY OF MOST GLASS
+*RHO_P  2.5e+3 2.5e+3   
+*PHI_INI 0.125 0.125
+# GLYCERIN VISCOSITY
+*MU_FLUID 0.95
+# GLYCERIN DENSITY
+*RHO_FLUID 1.258e+3
+*HSFUNCTION_N 2.0
+*HSFUNCTION_LAMBDA 0.0e-4
+*PHI_MAX 0.5
+*TOL_NUMDIFF 1.0e-7
+
+# definition of parameters for newton method
+*NMAXITER 100
+*ZEROTOL 1.0e-10
+*DIFFTOL 1.0e-7
+
+# definition of outputs to save
+*NOUTPUTS 200
+
+# COTAS TO SAVE SOLUTION
+*NUMCOTAS 5
+*COTAS 0.0725 0.1725 0.2725 0.6725 0.8725
+
+
+
+
+
+

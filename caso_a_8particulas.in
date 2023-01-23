@@ -1,0 +1,40 @@
+# definition of the dimensions of the system of pdes
+*PDEDIM 8
+
+*OUTPUTFOLDER caso_a_8particulas
+
+# definition of data for discretization
+*XSIZE 6000
+*LENGTH 0.9
+*DELTAT 0.2
+# *TFINAL 1.8e+4
+*TFINAL 60
+
+
+*DIAMETER 1.2755e-6 3.6e-6 6.861e-6 10.9465e-6 16.568e-6 23.128e-6 33.057e-6 65.506e-6
+*RHO_P  3.8e+3  3.8e+3 3.8e+3 3.8e+3  3.8e+3 3.8e+3  3.8e+3 3.8e+3 
+*PHI_INI 0.025 0.025 0.025 0.025 0.025 0.025 0.025 0.025 
+*MU_FLUID 2.0e-3
+*RHO_FLUID 9.9821e+2
+*HSFUNCTION_N 2.0
+*HSFUNCTION_LAMBDA 1.0e-4
+*PHI_MAX 0.5
+*TOL_NUMDIFF 1.0e-7
+
+# definition of parameters for newton method
+*NMAXITER 100
+*ZEROTOL 1.0e-10
+*DIFFTOL 1.0e-7
+
+# definition of outputs to save
+*NOUTPUTS 1
+
+# COTAS TO SAVE SOLUTION
+*NUMCOTAS 5
+*COTAS 0.0725 0.1725 0.2725 0.6725 0.8725
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+/home/duilio/rcd_sedimentacao/CMakeFiles/rebuild_cache.dir
+/home/duilio/rcd_sedimentacao/CMakeFiles/edit_cache.dir
+/home/duilio/rcd_sedimentacao/CMakeFiles/sedimentacao.dir
